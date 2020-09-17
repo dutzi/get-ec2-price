@@ -1,10 +1,16 @@
 {
   "name": "get-ec2-price",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "author": "dutzi",
   "license": "MIT",
+  "scripts": {
+    "test": "node test.js"
+  },
   "dependencies": {
     "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0"
   }
 }
